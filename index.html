@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fitness_solutions</title>
+  <link rel="stylesheet" href="master.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/2c770ee62b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="topnav" id="myTopnav">
+
+
+      <a id="h1" class="active">Fitness solutions</a>
+
+
+      <a href="#">Start Your Journey</a>
+      <a href="#">Transformations</a>
+      <a href="#">Services</a>
+      <a href="#">Tools</a>
+      <a href="#">Login</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2x"></i>
+      </a>
+      </ul>
+    </nav>
+
+
+
+  </header>
+
+  <main class="cont">
+
+    <div class="maincard">
+
+      <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(173, 228, 152, 1)" offset="0%"></stop>
+
+          </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="#6658d3"
+          d="M0,49L40,40.8C80,33,160,16,240,40.8C320,65,400,131,480,138.8C560,147,640,98,720,106.2C800,114,880,180,960,196C1040,212,1120,180,1200,138.8C1280,98,1360,49,1440,65.3C1520,82,1600,163,1680,196C1760,229,1840,212,1920,171.5C2000,131,2080,65,2160,49C2240,33,2320,65,2400,130.7C2480,196,2560,294,2640,277.7C2720,261,2800,131,2880,81.7C2960,33,3040,65,3120,73.5C3200,82,3280,65,3360,98C3440,131,3520,212,3600,228.7C3680,245,3760,196,3840,187.8C3920,180,4000,212,4080,253.2C4160,294,4240,343,4320,351.2C4400,359,4480,327,4560,334.8C4640,343,4720,392,4800,343C4880,294,4960,147,5040,114.3C5120,82,5200,163,5280,187.8C5360,212,5440,180,5520,187.8C5600,196,5680,245,5720,269.5L5760,294L5760,490L5720,490C5680,490,5600,490,5520,490C5440,490,5360,490,5280,490C5200,490,5120,490,5040,490C4960,490,4880,490,4800,490C4720,490,4640,490,4560,490C4480,490,4400,490,4320,490C4240,490,4160,490,4080,490C4000,490,3920,490,3840,490C3760,490,3680,490,3600,490C3520,490,3440,490,3360,490C3280,490,3200,490,3120,490C3040,490,2960,490,2880,490C2800,490,2720,490,2640,490C2560,490,2480,490,2400,490C2320,490,2240,490,2160,490C2080,490,2000,490,1920,490C1840,490,1760,490,1680,490C1600,490,1520,490,1440,490C1360,490,1280,490,1200,490C1120,490,1040,490,960,490C880,490,800,490,720,490C640,490,560,490,480,490C400,490,320,490,240,490C160,490,80,490,40,490L0,490Z">
+        </path>
+      </svg>
+
+
+
+
+
+      <div class="info">
+        <h1 class="wel">Welcome back!</h1>
+
+        <form class="card-form">
+          <div class="input">
+            <input type="text" class="input-field input-label" placeholder="Username" value="" required />
+
+          </div>
+
+          <div class="input">
+            <input type="password" class="input-field" placeholder="Password" required />
+
+          </div>
+          <div class="action">
+            <button class="action-button" type="submit">Sign in</button>
+          </div>
+        </form>
+
+
+
+
+
+
+        <div class="card-info">
+          <p id="forgot"> <a id="forgot" href="#">Forgot Your Password ?</a></p>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+
+
+  <footer id="footer" class="footer">
+    <div class="foot">
+      <a href="https://twitter.com/explore"><i class="icon-foter fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.facebook.com/"><i class="icon-foter fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://www.instagram.com/"><i class="icon-foter fab fa-instagram fa-2x"></i></a>
+      <a href="www.gmail.com"> <i class="icon-foter fas fa-envelope fa-2x"></i></a>
+
+      <p>© Copyright 2021 srinivas</p>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</html>
